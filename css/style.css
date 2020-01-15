@@ -1,0 +1,1585 @@
+body {
+	background: url(../images/body_bg.jpg) fixed no-repeat;
+	background-size:cover;
+	background-color: white;
+}
+
+#top {
+	width: 1200px;
+	min-width: 1020px;
+	position: relative;
+	float: left;
+	line-height: 30px;
+	z-index: 1000;
+}
+
+.cover {
+	width: 1020px;
+	height: 168px;
+}
+
+.shop_button {
+	margin-top: 60px;
+	float: right;
+	padding: 8px 24px;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	color: white;
+	cursor: pointer;
+	background: #64DC18;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.shop_button:hover {
+	background: #8fe558;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.shop_button img {
+	width: 24px;
+	height: 24px;
+	margin-top: 2px;
+	margin-bottom: -2px;
+	margin-left: -5px;
+	margin-right: 20px;
+}
+
+.logo {
+	margin-left: 225px;
+	overflow: hidden;
+	height: 254px;
+}
+
+.logo  img{
+	width: 490px;
+	height: 385px;
+	margin-bottom: -140px;
+	margin-top: -70px;
+	margin-left: -20px;
+}
+
+#page-preloader  .inline .logo {
+	margin-left: 0px;
+}
+
+#page-preloader  img{
+	width: 490px;
+	height: 385px;
+	margin-bottom: -140px;
+	margin-top: -70px;
+	margin-left: -5px;
+}
+
+.menu {
+	height: 50px;
+	width: 100%;
+	background-color: #ffa726;
+	border-bottom: 3px solid #fb8c00;
+}
+
+.menu_wrap {
+	width: 1160px;
+}
+
+.left_menu {
+	float:left;
+	margin-left: 45px;
+}
+
+.right_menu {
+	float:right;
+	margin-right: 90px;
+}
+
+.menu .left_menu  .note{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+.menu .left_menu  .note:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.menu .left_menu  .note1{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+.menu .left_menu  .note1:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.menu .right_menu  .note{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+.menu .right_menu  .note:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.menu .right_menu  .note1{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+.menu .right_menu  .note1:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.menu .menu_img  {
+	padding: 5px;
+	width: 26px;
+	height: 26px;
+	margin-top: 7px;
+	margin-bottom: -7px;
+}
+
+#selector {
+	margin-top: 43px;
+	margin-left: -317px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#main {
+	float:left;
+	width: 100%;
+	min-height: 900px;
+	padding: 30px 0px;
+	animation-duration: 3s;
+	animation-delay: 0.5s;
+	-moz-animation-duration: 3s;
+	-moz-animation-delay: 0.5s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 0.5s;
+	position: relative;
+	z-index: 10;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	background: #fff;
+}
+
+#main .wrap {
+	width: 1020px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#main .wrap #left_column {
+	width: 680px;
+}
+
+#left_column .block {
+	width: 100%;
+	float: left;
+}
+#left_column .block .blockname {
+	width: 100%;
+	float:left;
+}
+
+#left_column .block .blockname div {
+	border-bottom: 2px solid #fb8c00;
+	line-height: 45px;
+	font-size: 20px;
+	color: black;
+	font-family: MyriadProRegular;
+	float: left;
+}
+
+#left_column .block .note {
+	padding: 12px 0px;
+	float: left;
+	font-family: MyriadProRegular;
+	color: black;
+	font-size: 16px;
+	width: 100%;
+}
+
+.games .pagetitle {
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.games .pagetitle .name {
+	width: 100%;
+	float:left;
+}
+
+.games .pagetitle .name div {
+	border-bottom: 2px solid #fb8c00;
+	line-height: 45px;
+	font-size: 20px;
+	color: black;
+	font-family: MyriadProRegular;
+	float: left;
+}
+
+#left_column .block .note.minigames {
+	height: 360px;
+}
+
+#left_column .block .note .trailer {
+	border: 3px solid #fb8c00;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
+#game_select {
+	width: 100%;
+	float: left;
+}
+
+#game_select .gs_link {
+	height: 45px;
+	width: 45px;
+	padding: 9px 9px 12px 9px;
+	border: 3px solid white;
+	float:left;
+	cursor: pointer;
+	background: white;
+	position: relative;
+	margin-bottom: 0px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#game_select .gs_link.active {
+	background: #fb8c00;
+	padding: 9px 9px 12px 9px;
+	border: 3px solid #fff;
+	z-index: 9999;
+	border-bottom: 3px solid #fb8c00;
+	background-size: 100% 100%;
+	-webkit-animation: AnimationName 2s ease;
+	-moz-animation: AnimationName 2s ease;
+	-o-animation: AnimationName 2s ease;
+	animation: AnimationName 2s ease;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.game_text {
+	width: 360px;
+	float: left;
+	padding: 0px 10px;
+}
+
+.gs {
+	height: 264px;
+}
+
+#gs_p {
+	margin-top: 0px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#gs_k {
+	margin-top: -1320px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#text_s{
+	margin-left: -2350px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+#fpic_s {
+	margin-left: 0px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.game_info {
+	width: 680px;
+	height: 242px;
+	overflow: hidden;
+	padding: 10px 0px;
+	float: left;
+	border-bottom: 2px solid #fb8c00;
+	background: #ffa726;
+	border: 3px solid #fb8c00;
+	position: relative;
+	z-index: 1;
+	color: white;
+}
+
+.game_info img {
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+
+.features_select {
+	width: 204px;
+	float: left;
+	font-family: MyriadProBold;
+}
+
+.features_select .flink {
+	width: 200px;
+	border-left: 2px solid #fb8c00;
+	border-right: 2px solid #fb8c00;
+	border-bottom: 1px solid #fb8c00;
+	border-top: 1px solid #fb8c00;
+	background: #ffa726;
+	height: 50px;
+	color: white;
+	font-size: 24px;
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.features_select .flink.active {
+	border-left: 2px solid white;
+	border-right: 2px solid white;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	background: white;
+	border: 0px solid w;
+	color: black;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+.feature_info {
+	overflow: hidden;
+	width: 450px;
+	float: left;
+}
+
+.feature_text {
+	float: left;
+	width: 2820px;
+}
+
+.feature_text .text {
+	float: left;
+	width: 450px;
+	padding: 0px 10px;
+}
+.fpic {
+	float: left;
+	width: 450px;
+}
+
+.fpics {
+	float: left;
+	width: 2700px;
+}
+
+.fpics img {
+	width: 180px;
+	height: 150px;
+}
+
+#right_column {
+	width: 310px;
+	margin-left: 25px;
+	font-family: MyriadProRegular;
+	font-size: 16px;
+}
+
+#right_column .block {
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+#right_column .block .blockname {
+	width: 100%;
+	float:left;
+	margin-bottom: 15px;
+	margin-top: -15px;
+}
+
+#right_column .block .blockname div {
+	border-bottom: 2px solid #fb8c00;
+	line-height: 45px;
+	font-size: 20px;
+	color: black;
+	font-family: MyriadProRegular;
+	float: left;
+}
+
+/*  */
+
+.playforine {
+	background: #FFA727;
+	font-family: MyriadProBold;
+	color: black;
+	font-size: 28px;
+	width: 100%;
+	padding: 7px 0px;
+	margin-bottom: 7px;
+}
+
+.how {
+	border-bottom: 1px solid black;
+	font-family: MyriadProItalic;
+	width: 120px
+}
+
+.how .text {
+	height: 26px;
+	width: 144px;
+	margin-left: -7px;
+	cursor: pointer;
+}
+
+/* Блок-промо магазина */
+
+.shop_promo {
+	width: 310px;
+	height: 260px;
+	border: 2px solid #ffa726;
+	color:white;
+	background: url(../images/shopimg.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.shop_promo .promo_info {
+	background: rgba(255,180,70,0.9);
+	width: 100%;
+	height: 130px;
+	margin-top: 130px;
+	border-top: 2px solid #ffa726;
+	font-size: 17px;
+	z-index:9999;
+}
+
+.shop_promo .promo_info .button {
+	color: white;
+	font-family: MyriadProBold;
+	cursor: pointer;
+	margin-top: 4px;
+	background: RGBA(255, 168, 41, 0.57);
+}
+
+.shop_promo .promo_info .button:hover {
+	color: white;
+	font-family: MyriadProBold;
+	cursor: pointer;
+	margin-top: 4px;
+	background: #FFA727;;
+}
+
+/* Миниигры */
+
+#game_load {
+	margin-top: 15px;
+	float: left;
+}
+
+.games #game_select {
+	width: 100%;
+	float: left;
+	padding: 0px 0px 4px;
+	border-bottom: 3px solid #fb8c00;
+}
+
+.games #game_select .gs_link {
+	height: 66px;
+	width: 66px;
+	padding: 9px;
+	border: 3px solid white;
+	border-bottom: 0px;
+	float:left;
+	cursor: pointer;
+	background: white;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	position: relative;
+}
+
+.games #game_select .gs_link.active {
+	background: #ffa726;
+	padding: 9px;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	border: 3px solid #fb8c00;
+	border-bottom: 0px;
+	z-index: 9999;
+}
+
+.game_screen img {
+	width: 100%;
+	padding: 15px 0px;
+}
+
+.game_stats {
+	width: 310px;
+	height: 100%;
+	margin-left: 5px;
+	height: 330px;
+	border-top: 3px solid #fb8c00;
+	border-bottom: 3px solid #fb8c00;
+}
+
+.game_stats .game_table {
+	padding: 5px 5px 15px 5px;
+	width: 100%;
+}
+
+.game_stats .game_table .note {
+	height: 55px;
+	width: 100%;
+	padding: 5px 5px;
+	border-bottom: 1px solid #D2D1D1;
+}
+
+.game_stats .game_table .note .number {
+	color: #777;
+	font-family: MyriadProRegular;
+	font-size: 35px;
+	line-height: 50px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.game_stats .game_table .note .player{
+	width: 80%;
+}
+
+.game_stats .game_table .note .player  .info {
+	width: 70%;
+	margin-left: 10px;
+	padding: 4.5px 0px;
+}
+
+.game_stats .game_table .note .player  .info .nickname {
+	font-family: MyriadProBold;
+}
+
+.game_stats .game_table .note .player  .info div {
+	width:100%;
+}
+
+.game_info {
+	width: 100%;
+}
+
+.button {
+	background: #FFA727;
+	font-family: MyriadProBold;
+	color: black;
+	font-size: 16px;
+	width: 100%;
+	padding: 10px 0px;
+	margin-bottom: 7px;
+	margin: 10px 0px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.button:hover {
+	background: #FFAF3C;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+/* Игроки  */
+
+#players #right_column {
+	margin-left: 0px;
+}
+
+#players .search {
+	width: 1170px;
+	margin-left: -90px;
+	background: #FFAF3C;
+	padding: 15px;
+}
+
+#players .search .text {
+	line-height: 41px;
+	color: white;
+	margin-left: 21px;
+	font-size: 21px;
+	font-family: MyriadProRegular
+}
+
+#players .search form {
+	height: 25px;
+}
+
+#players .search form input[type=text] {
+    background-color: white;
+    color: black;
+    height: 40px;
+    padding-left:10px;
+    width: 218px;
+	font-size: 21px;
+	margin-left: 74px;
+	font-family: MyriadProRegular;
+	outline: none;
+	border: 1px solid #cccccc;
+}
+
+#players .search form input[type=submit] {
+    background-color: white;
+    color: black;
+    height: 40px;
+    padding-left:10px;
+	padding: 0px 5px;
+	font-size: 21px;
+	margin-left: 4px;
+	font-family: MyriadProRegular;
+	outline: none;
+	border: 1px solid #cccccc;
+}
+
+#players .blockname {
+	width: 100%;
+}
+
+.p_note {
+	height: 64px;
+	width: 100%;
+	padding: 5px 5px;
+}
+
+.p_note .player{
+	width: 80%;
+}
+
+.p_note .player{
+	cursor: pointer;
+}
+
+.p_note .player .info {
+	width: 70%;
+	margin-left: 10px;
+	padding: 8.5px 0px;
+}
+
+.p_note .player  .info .nickname {
+	font-family: MyriadProBold;
+}
+
+.p_note .player  .info div {
+	width:100%;
+}
+
+.m_note {
+	width: 100%;
+	padding: 5px 5px;
+}
+
+.m_note .player{
+	width: 49%;
+	padding: 3px 0px;
+}
+.m_note .player img {
+	cursor: pointer;
+}
+
+.m_note .player .info {
+	width: 55%;
+	margin-left: 10px;
+	padding: 4.5px 0px;
+	font-size: 12px;
+}
+
+.m_note2 img {
+	padding: 3px 3px;
+}
+
+.m_note .player  .info .nickname {
+	font-family: MyriadProBold;
+	color: #ffbb19;
+	cursor: pointer;
+}
+
+.m_note .player  .info .nickname :hover { 
+	color: #ffce59;
+}
+
+.m_note .player  .info div {
+	width:100%;
+}
+
+.best_players {
+	padding: 20px 0px;
+}
+
+.best_players .player {
+	width: 30%;
+	padding: 15px 20px 0px 0px;
+}
+
+.best_players .player img {
+	cursor: pointer;
+}
+
+.best_players .player .info {
+	width: 70%;
+	margin-left: 10px;
+	padding: 2.5px 0px;
+	font-size: 11px;
+	font-size: 13px;
+	font-family: MyriadProRegular;
+}
+
+.best_players .player .info .nickname {
+	font-family: MyriadProBold;
+	color: #ffbb19;
+	cursor: pointer;
+}
+
+.best_players .player .info .nickname:hover {
+	color: #ffce59;
+}
+
+#player .block {
+	width: 100%;
+	float: left;
+}
+#player .block .blockname {
+	width: 100%;
+	float:left;
+}
+
+#player .block .blockname div {
+	border-bottom: 2px solid #fb8c00;
+	line-height: 45px;
+	font-size: 20px;
+	color: black;
+	font-family: MyriadProRegular;
+	float: left;
+}
+
+/* Страница игрока */
+
+#player .player {
+	width: 1170px;
+	margin-left: -90px;
+	background: #FFAF3C;
+	padding: 30px 15px;
+	font-family: MyriadProRegular;
+}
+
+#player .player .avatar {
+	width: 112px;
+	height: 112px;
+}
+
+#player .player .info {
+	width: 600px;
+	padding: 0px 0px 0px 15px;
+}
+
+#player .player .info .nickname {
+	font-size: 50px;
+	width: 100%;
+}
+
+#player .player .info .status {
+	width: 100%;
+}
+
+#player .player .info .tags{
+	width: 100%;
+	padding: 6px 0px;
+	margin-left: -15px;
+}
+
+#player .player .info .tags .tag_node{
+	padding: 3px 7px;
+	background: #fb8c00;
+	font-size: 15px;
+	margin-left: 14px;
+}
+
+#player .player .rank {
+	background: #fb8c00;
+	padding: 9px 15px;
+	margin-right: 18px;
+}
+
+#player .block{
+	width: 280px;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#player .block .blockname {
+	border-bottom: 4px solid #fb8c00;
+	line-height: 40px;
+	font-size: 24px;
+	color: black;
+	font-family: MyriadProRegular;
+	float: left;
+}
+
+.p_g_node {
+	width: 100%;
+}
+
+.p_g_img {
+	width: 280px;
+	height: 95px;
+}
+
+.fa-ul {
+	width: 230px;
+	float: left;
+	margin-top: 6px;
+}
+.fa-ul li {
+	color: black;
+	padding: 9px;
+	font-family: MyriadProRegular;
+	float: left;
+	width: 100%;
+}
+
+.fa-ul li i {
+	font-size: 16px;
+	font-weight: normal;
+	float: left;
+	margin: 9px 0px 0 -3px;
+}
+
+.fa-ul li .amount {
+	font-size: 22px;
+	margin: -3px 0 -8px 0;
+	color: #aeaeae;
+	float: right;
+}
+
+.fa-ul li .text {
+	float: left;
+	margin-left: -10px;
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+.dark_orange {
+	color: #b66500;
+}
+
+/* Магазин */
+#shop {
+	
+}
+
+#shop #top {
+	width: 1200px;
+	min-width: 1020px;
+	position: relative;
+	float: left;
+	line-height: 30px;
+	z-index: 1000;
+}
+
+#shop .cover {
+	height: 270px;
+}
+
+#shop .logo {
+	margin-left: 0px;
+}
+
+#shop .logo  img{
+	width: 392px;
+	height: 344px;
+	margin-top: -35px;
+	margin-left: -47px;
+}
+
+#shop .menu {
+	height: 50px;
+	width: 100%;
+	background-color: #ffa726;
+	border-bottom: 3px solid #fb8c00;
+}
+
+#shop .menu_wrap {
+	width: 1200px;
+}
+
+#shop .left_menu {
+	float:left;
+	margin-left: 25px;
+}
+
+#shop .right_menu {
+	float:right;
+	margin-right: 40px;
+}
+
+#shop .menu .left_menu  .note{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 20px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+#shop .menu .left_menu  .note:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#shop .menu .left_menu  .note1{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+#shop .menu .left_menu  .note1:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#shop .menu .right_menu  .note{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+#shop .menu .right_menu  .note:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#shop .menu .right_menu  .note1{
+	float: left;
+	color: white;
+	font-family: MyriadProRegular;
+	font-size: 24px;
+	margin-left: 26px;
+	cursor: pointer;
+	height: 50px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	line-height: 50px;
+}
+
+#shop .menu .right_menu  .note1:hover{
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#shop .menu .menu_img  {
+	padding: 5px;
+	width: 26px;
+	height: 26px;
+	margin-top: 7px;
+	margin-bottom: -7px;
+}
+
+#shop .wrap {
+	width: 1110px;
+}
+
+#shop #main #left_column {
+	width: 770px;
+}
+
+#shop #main #right_column {
+	width: 310px;
+	margin-left: 25px;
+	font-family: MyriadProRegular;
+	font-size: 16px;
+}
+
+#shop #selector {
+	margin-top: 43px;
+	margin-left: -823px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+
+#shop .priv_body {
+	width: 100%;
+	font-family: MyriadProRegular;
+	font-size: 20px;
+	color: black;
+}
+
+#shop .priv_body .priv_node {
+	width: 100%;
+	float: left;
+	padding: 5px 0px;
+}
+
+#shop .priv_body .priv_node img {
+	margin-left: 18px;
+}
+
+#shop .priv_body .priv_node  .name{
+	margin-left: 20px;
+	width: 312px;
+	line-height: 50px;
+	text-align: left;
+}
+
+#shop .priv_body .priv_node .price{
+	margin-left: 25px;
+	width: 136px;
+	line-height: 50px;
+	text-align: left;
+	
+}
+
+#shop .priv_body .priv_node  .buy_button{
+	margin-left: 5px;
+	height: 30px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+#shop .priv_body .priv_node  .buy_button:hover{
+	opacity: 0.8;
+}
+
+#shop .priv_body .priv_node  .buy_button .buy_img{
+	border-radius: 10px 0px 0px 10px;
+	background: #2fb410;
+	height: 40px;
+	padding: 0px 6px;
+}
+
+#shop .priv_body .priv_node .buy_button .buy_img img {
+	width: 24px;
+	height: 24px;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-left: 9px;
+}
+
+#shop .priv_body .priv_node  .buy_button .text{
+	border-radius: 0px 10px 10px 0px;
+	background: #58dd17;
+	width: 141px;
+	color: white;
+	text-align: center;
+	height: 40px;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.popup-content .priv_body {
+	width: 100%;
+	font-family: MyriadProRegular;
+	font-size: 20px;
+	color: black;
+}
+
+.popup-content .priv_body .priv_node {
+	width: 100%;
+	float: left;
+	padding: 5px 0px;
+	margin-top: 5px;
+}
+
+.popup-content.priv_body .priv_node img {
+	margin-left: 18px;
+}
+
+.popup-content .priv_body .priv_node  .name{
+	margin-left: 20px;
+	width: 137px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.popup-content .priv_body .priv_node .price{
+	margin-left: 25px;
+	width: 117px;
+	line-height: 50px;
+	text-align: left;
+	
+}
+
+.popup-content .priv_body .priv_node  .buy_button{
+	height: 30px;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-right: -192px;
+	margin-left: 21px;
+}
+
+.popup-content .priv_body .priv_node  .buy_button:hover{
+	opacity: 0.8;
+}
+
+.popup-content .priv_body .priv_node  .buy_button .buy_img{
+	border-radius: 10px 0px 0px 10px;
+	background: #2fb410;
+	height: 40px;
+	padding: 0px 6px;
+}
+
+.popup-content .priv_body .priv_node .buy_button .buy_img img {
+	width: 24px;
+	height: 24px;
+	margin-top: 6px;
+	margin-right: 6px;
+	margin-left: 9px;
+}
+
+.popup-content .priv_body .priv_node  .buy_button .text{
+	border-radius: 0px 10px 10px 0px;
+	background: #58dd17;
+	width: 141px;
+	color: white;
+	text-align: center;
+	height: 40px;
+	font-size: 26px;
+	line-height: 40px;
+}
+
+.brown {
+	background: #fff2df;
+}
+
+.need_help {
+	margin-top: 0px;
+	background: #f4f4f4;
+	padding: 15px 0px;
+}
+
+.need_help a {
+	color: blue;
+	cursor: pointer;
+}
+
+
+/* Универсальные псевдоклассы */
+
+::-webkit-input-placeholder {color:#979797;}
+::-moz-placeholder          {color:#979797;}
+:-moz-placeholder           {color:#979797;}
+:-ms-input-placeholder      {color:#979797;}
+
+/* Универсальные классы */
+
+.inline {
+	display: inline-block;
+}
+
+.centered {
+	text-align: center;
+}
+
+.normal {
+	text-align: left;
+}
+
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+/* Футер сайта */
+#footer {
+	float:left;
+	width: 100%;
+	background-color: #ffa726;
+	height: 100px;
+	transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	margin-bottom: 40px;
+}
+
+/* Прелоадер сайта */
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,1);
+    z-index: 9998;
+}
+
+#page-preloader .spinner {
+    width: 160px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url(../images/load.gif) no-repeat 50% 50%;
+    margin: -12px 0 0 -80px;
+}
+
+/* Полоса загрузки nprogress */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: #ffa531;
+
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 2px;
+}
+
+#nprogress .peg {
+  display: block;
+  position: absolute;
+  right: 0px;
+  width: 100px;
+  height: 100%;
+  box-shadow: 0 0 10px #ffa531, 0 0 5px #ffa531;
+  opacity: 1.0;
+
+  -webkit-transform: rotate(3deg) translate(0px, -4px);
+      -ms-transform: rotate(3deg) translate(0px, -4px);
+          transform: rotate(3deg) translate(0px, -4px);
+}
+
+#nprogress .spinner {
+  display: block;
+  position: fixed;
+  z-index: 1031;
+  top: 15px;
+  right: 15px;
+}
+
+#nprogress .spinner-icon {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+
+  border: solid 2px transparent;
+  border-top-color: #ffa531;
+  border-left-color: #ffa531;
+  border-radius: 50%;
+
+  -webkit-animation: nprogress-spinner 400ms linear infinite;
+          animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+  overflow: hidden;
+  position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+  position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+  0%   { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.popup{
+    width:100%;
+    min-height:100%;
+    background-color: rgba(255,255,255,0.6);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+	z-index: 9999;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+}
+.popup .popup-content {
+    width:1050px;
+	padding: 5px 5px 5px 10px;
+    background-color: white;
+	float: left;
+	margin-left: -525px;
+	left: 50%;
+	position: fixed;
+	border: 2px solid black;
+	-webkit-box-shadow: 6px 9px 12px -7px rgba(0,0,0,0.7);
+	-moz-box-shadow: 6px 9px 12px -7px rgba(0,0,0,0.7);
+	box-shadow: 6px 9px 12px -7px rgba(0,0,0,0.7);
+	margin-top: 250px;
+	transition: all 0.7s ease-out;
+	-moz-transition: all 0.7s ease-out;
+	-webkit-transition: all 0.7s ease-out;
+	top: 50%;
+	margin-top: -200px;
+}
+
+.popup-content .info_text {
+	font-family: MyriadProRegular;
+	font-size: 16px;
+	text-align: left;
+	margin-left: 72px;
+	margin-bottom: 10px;
+}
+
+.close {
+	color: #7d7d7d;
+	font-family: MyriadProRegular;
+	font-size: 20px;
+	margin-right: 2px;
+	margin-top: 5px;
+	cursor: pointer;
+	margin-bottom: -21px;
+	margin-top: -71px;
+}
+
+.priv_node form {
+	height: 25px;
+}
+
+.priv_node form input[type=text] {
+    background-color: e8e8e8;
+    color: black;
+    height: 40px;
+    padding-left:10px;
+    width: 300px;
+	font-size: 26px;
+	margin-left: 158px;
+	font-family: MyriadProRegular;
+	outline: none;
+	border: 1px solid #cccccc;
+	margin-top: 5px;
+}
+
+.priv_node form input[type=submit] {
+    background-color: rgba(0,0,0,0);
+    color: rgba(0,0,0,0);
+    height: 40px;
+	width: 192px;
+	outline: none;
+	border: 0px solid #cccccc;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.priv_info {
+	background: #b7b7b7;
+	border-top: 2px solid #7d7d7d;
+	border-bottom: 2px solid #7d7d7d;
+	border-left: 1px solid #7d7d7d;
+	border-right: 1px solid #7d7d7d;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	padding: 6px 15px;
+	font-family: MyriadProRegular;
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+}
+.priv_info.active {
+	background: white;
+	border-bottom: 2px solid rgba(0,0,0,0);
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.popup-content #game_select {
+	width: 950px;
+	margin-left: 42px;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.priv_info_game {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.priv_info_game img{
+	width: 300px;
+	height: 261px;
+	float: left;
+	
+}
+.text .fa-ul {
+	font-family: MyriadProRegular;
+	text-align: left;
+	width: 587px;
+	margin-top:5px;
+}
+.text .fa-ul .margin {
+	margin-left: 6px;
+}
+
+.text .fa-ul li {
+	padding: 9px;
+	text-align: left;
+	color: #5b5a5a;
+	margin-bottom: -16px;
+}
+
+.text .fa-ul li i {
+	margin: 2px 0px 0 -3px;
+	padding: 0px 5px 0px 0px;
+}
+
+.game_stat_node {
+	width: 300px;
+	padding: 6px;
+	background: #FFAF3C;
+	margin-top: 6px;
+	margin-left: 6px;
+	font-family: MyriadProRegular;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.game_stat_node img {
+	
+}
+.game_stat_node .text {
+	width: 245px;
+	padding: 0px 0px 0px 6px;
+}
+.game_stat_node .name {
+	font-family: MyriadProBold;
+	font-size: 19px;
+	width:100%;
+}
+
+.game_stat_node .desc{
+	font-size: 14px;
+	width:100%;
+}
+
+.stat_node{
+	background: #b7b7b7;
+	margin: 3px;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	padding: 6px 15px;
+	font-family: MyriadProRegular;
+	letter-spacing: 0.1px;
+	font-size: 16px;
+	float: left;
+	cursor: pointer;
+}
+.stat_node.active {
+	background: white;
+	color: black;
+	transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
